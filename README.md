@@ -20,9 +20,11 @@ npx prisma db push
   if you want to add a migration, use :
 npx prisma migrate dev --name init
 
-###5. Run APP
+### 5. Run APP
 pnpm run dev
 --end--
+
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.

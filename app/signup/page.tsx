@@ -77,7 +77,7 @@ export default function Page() {
           )}
 
           <div className="space-y-2">
-            <Label htmlFor="name">name</Label>
+            <Label htmlFor="name">Name</Label>
             <Input
               id="name"
               type="text"
@@ -89,7 +89,7 @@ export default function Page() {
           </div>
 
           <div className="space-y-2">
-            <Label htmlFor="email">email</Label>
+            <Label htmlFor="email">Email</Label>
             <Input
               id="email"
               type="email"
@@ -101,7 +101,7 @@ export default function Page() {
           </div>
 
           <div className="space-y-2">
-            <Label htmlFor="password">password</Label>
+            <Label htmlFor="password">Password</Label>
             <Input
               id="password"
               type="password"

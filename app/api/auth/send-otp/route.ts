@@ -10,7 +10,7 @@ export async function POST(req: Request) {
   if (!user) return Response.json({ message: "User not found" }, { status: 404 });
 
   const otp = Math.floor(100000 + Math.random() * 900000).toString();
-  const expiry = new Date(Date.now() + 5 * 60 * 1000); // 10 minutes
+  const expiry = new Date(Date.now() + 5 * 60 * 1000); // 5 minutes
 
   await prisma.otps.create({
     data: {

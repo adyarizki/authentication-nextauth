@@ -22,12 +22,7 @@ export default function Dashboard() {
       {/* Stats Section */}
       <div className="max-w-7xl mx-auto space-y-6">
         <h1 className="text-3xl font-bold text-gray-800">Dashboard</h1>
-
-        <DashboardStats />
-        <StudentChart />
-
-        {/* Welcome Section */}
-        <div className="mt-8 bg-white rounded-xl shadow-md p-6 md:p-8 text-center max-w-2xl mx-auto">
+          <div className="w-full mt-8 bg-white rounded-xl shadow-md p-6 md:p-8 text-center max-w-2xl mx-auto">
           <h2 className="text-2xl font-semibold text-gray-800 mb-2">Selamat Datang <strong>👋{session.user?.name}</strong></h2>
           <p className="text-gray-600">
             Login sebagai: <span className="font-medium text-blue-600">{session.user?.email}</span>
@@ -40,6 +35,11 @@ export default function Dashboard() {
             Sign Out
           </Button>
         </div>
+        <DashboardStats />
+        <StudentChart />
+
+        {/* Welcome Section */}
+        
       </div>
     </section>
   )

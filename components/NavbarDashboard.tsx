@@ -15,7 +15,7 @@ export default function NavbarDashboard() {
 
   return (
     <nav className="flex items-center justify-between px-6 py-4 border-b bg-white shadow-sm">
-      <h1 className="text-xl font-semibold text-blue-600">MyDashboard</h1>
+      <h1 className="text-xl font-bold text-blue-600 ">Authentication</h1>
 
       <DropdownMenu>
         <DropdownMenuTrigger asChild>

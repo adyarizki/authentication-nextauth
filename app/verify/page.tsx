@@ -82,6 +82,7 @@ export default function Page() {
             </label>
             <Input
               id="otp"
+              className="text-center font-bold "
               placeholder="986789"
               value={otp}
               onChange={(e) => setOtp(e.target.value)}

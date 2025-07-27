@@ -99,17 +99,19 @@ export default function Page() {
                 Loading...
               </div>
             ) : (
-              "Login to your account"
+              "Sigin in"
             )}
           </Button>
 
           <p className="text-sm text-center text-muted-foreground">
             Not registered?{" "}
+            <br />
+            
             <Link
               href="/signup"
               className="text-blue-600 hover:underline"
             >
-              Create account
+             <Button className="w-100 bg-blue-600 mt-4 hover:bg-blue-500 hover:text-white"> Create account</Button>
             </Link>
           </p>
         </CardFooter>

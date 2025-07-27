@@ -124,14 +124,15 @@ export default function Page() {
                 <LoaderSpinner />
               </>
             ) : (
-              "Register now"
+              "Sign Up now"
             )}
           </Button>
 
           <p className="text-sm text-center text-muted-foreground">
             Do you have account?{" "}
             <Link href="/signin" className="text-blue-600 hover:underline">
-              Sign in here
+            <br />
+              <Button className="w-100 max-w-sm bg-blue-600 mt-4 hover:bg-blue-500 hover:text-white">Sign in here </Button>
             </Link>
           </p>
         </CardContent>

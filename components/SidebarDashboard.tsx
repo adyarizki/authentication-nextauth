@@ -20,7 +20,7 @@ export default function Sidebar() {
     <>
       {/* Mobile Toggle */}
       <div className="md:hidden px-4 py-2 border-b flex justify-between items-center bg-white shadow-sm">
-        <h1 className="font-bold text-blue-600 text-lg">MyDashboard</h1>
+        <h1 className="font-bold text-blue-600 text-lg">Dashboard</h1>
         <Button variant="ghost" size="icon" onClick={() => setIsOpen(!isOpen)}>
           {isOpen ? <X /> : <Menu />}
         </Button>
@@ -33,7 +33,7 @@ export default function Sidebar() {
         }`}
       >
         <div className="px-6 py-4 border-b">
-          <h2 className="text-xl font-bold text-blue-600">MyDashboard</h2>
+          <h2 className="text-xl font-bold text-blue-600">Dashboard</h2>
         </div>
         <nav className="flex flex-col px-4 py-4 space-y-2">
           {navItems.map((item) => {

@@ -1,8 +1,7 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## 1. Getting Started
-💼 Setup Employee Crud Database
-Create, Read, update, dan delete employee
+💼 Setup Authentication NextAuth
 1. Clone Repository
 git clone https://github.com/adyarizki/authentication-nextauth.git
 cd name_project
